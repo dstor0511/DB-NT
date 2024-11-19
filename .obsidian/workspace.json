@@ -11,10 +11,14 @@
             "id": "8e79602e3b285b00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "topic4/htmlExpress/Reading.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Reading"
             }
           }
         ]
@@ -156,6 +160,7 @@
   },
   "active": "8e79602e3b285b00",
   "lastOpenFiles": [
+    "topic4/htmlExpress/Reading.md",
     "Week1/Week 1 Notes.md",
     "Week 2/Pasted image 20241021061205.png",
     "Week 2/Week 2.md",

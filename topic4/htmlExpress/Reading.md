@@ -1,0 +1,15 @@
+- What is form-data validation?
+	- Data validation means checking the accuracy and quality of source data before using, importing or otherwise processing data. Different types of validation can be performed depending on destination constraints or objectives. Data validation is a form of data cleansing. 
+
+- What are the different types of form-data validation?
+	- Basic Validation − First of all, the form must be checked to make sure all the mandatory fields are filled in. It would require just a loop through each field in the form and check for data.
+	- Data Format Validation − Secondly, the data that is entered must be checked for correct form and value. Your code must include appropriate logic to test correctness of data.
+- How can it be achived?
+	- Using Regular Expressions: Regular expressions can be used to match patterns in the input data. For example, to validate an email address, you can use a regular expression that matches the required format (e.g., ``^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)``.
+	- Using String Methods: JavaScript provides various string methods that can be used to validate data. For example, you can use the indexOf() method to check if a certain character is present in the string.
+	- Using Custom Functions: You can create custom functions to validate specific data formats. For example, you can create a function to validate a phone number or a credit card number.
+- How can express-validator module facilitate form-data validation?
+	- Validation Rules: Express-validator provides a wide range of built-in validation rules, such as isEmail, isStrongPassword, isLength, and many more. You can use these rules to validate specific fields in your form data.
+	- Custom Validation: You can also create custom validation rules using the check() function. This allows you to validate complex data formats or business logic.
+	- Error Handling: Express-validator provides a way to handle validation errors, including displaying error messages to the user.
+	- Async Validation: Express-validator supports asynchronous validation, which allows you to perform complex validation tasks that require database queries or API calls.
