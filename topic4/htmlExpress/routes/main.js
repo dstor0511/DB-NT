@@ -17,4 +17,13 @@ module.exports = function (app) {
         // When someone visits "/search", render the "search.html" view
         res.render("about.html");
     });
+
+    app.get("/register", function (req, res) {
+        res.render("register.html");
+    });
+
+    app.post("/registered", function (req, res) {
+        // saving data in database
+        res.send(req.body);
+    });
 };
