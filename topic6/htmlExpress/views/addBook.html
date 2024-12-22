@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>his is the add book page title!</title>
+    </head>
+    <body>
+        <h1>This is the add book page</h1>
+        <p>This is an example of a paragraph inside the add book page</p>
+    </body>
+    <!-- form to add a book to the database -->
+    <form method="POST" action="/addedBook">
+        <label for="name"> Title: </label>
+        <input id="name" type="text" name="name" value="name" />
+        <br />
+        <label for="price"> Price: </label>
+        <input id="price" type="number" name="price" value="price" />
+        <br />
+        <input type="submit" value="OK" />
+        <br />
+        <a href="/list">View all the books</a>
+    </form>
+</html>
