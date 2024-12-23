@@ -11,6 +11,11 @@
 const express = require("express");
 const router = express.Router();
 
+// Display a the users home page
+router.get("/home", (req, res) => {
+    res.render("user-home");
+});
+
 /**
  * @desc Display all the users
  */
