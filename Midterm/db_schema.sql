@@ -18,6 +18,13 @@ CREATE TABLE IF NOT EXISTS email_accounts (
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
+-- Create table for the events created by the organizer
+CREATE TABLE IF NOT EXISTS events (
+    event_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    event_name TEXT NOT NULL,
+    event_description TEXT NOT NULL
+);
+
 -- Insert default data (if necessary here)
 
 -- Set up three users
